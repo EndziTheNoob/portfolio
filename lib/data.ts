@@ -35,51 +35,60 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'Graduated bootcamp',
-    location: 'Miami, FL',
+    title: 'Senior Client Manager',
+    location: 'FleishmanHillard',
     description:
-      'I graduated after 6 months of studying. I immediately found a job as a front-end developer.',
-    icon: React.createElement(LuGraduationCap),
-    date: '2019',
-  },
-  {
-    title: 'Front-End Developer',
-    location: 'Orlando, FL',
-    description:
-      'I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.',
+      'As a leader of PR team focused on technology brands I worked on content creation and strategic communication including project management and budgeting.',
     icon: React.createElement(CgWorkAlt),
-    date: '2019 - 2021',
+    date: '2018 - 2022',
   },
   {
-    title: 'Full-Stack Developer',
-    location: 'Houston, TX',
+    title: 'Product Manager',
+    location: 'Seznam.cz',
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: '2021 - present',
+      'My step into the world of technology as a product manager of search engine crawler in favorite Czech browser.',
+    icon: React.createElement(CgWorkAlt),
+    date: '2022',
   },
+  {
+    title: 'Smart Templates Creator',
+    location: 'PwC',
+    description:
+      "As a part of Document Automation Team I work on creation of templates for internal app Document Bot.",
+    icon: React.createElement(CgWorkAlt),
+    date: '2023 - present',
+  },
+  {
+    title: 'Junior Frontend Developer',
+    location: 'Czechitas Digital Academy',
+    description:
+      "After 300+ hours I finished intense frontend academy focused on React with final project Taskmate.",
+    icon: React.createElement(LuGraduationCap),
+    date: '2023',
+    
+  }
 ] as const;
 
 export const projectsData = [
   {
-    title: 'CorpComment',
+    title: 'Taskmate',
     description:
-      'I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.',
-    tags: ['React', 'Next.js', 'MongoDB', 'Tailwind', 'Prisma'],
+      'Simple fun to-do list app with an animated pixel character to make your day up.',
+    tags: ['React', 'Next.js', 'Styled-Components', 'Supabase', 'Procreate', 'Photoshop'],
     imageUrl: taksmateImg,
   },
   {
-    title: 'rmtDev',
+    title: 'Tic-Tac-Toe',
     description:
-      'Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.',
-    tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'Redux'],
+      'Good old game where X is fighting O and user can play with computer thanks to API.',
+    tags: ['Javascript', 'HTLM', 'CSS', 'API'],
     imageUrl: tictactoeImg,
   },
   {
-    title: 'Word Analytics',
+    title: 'Under the stars',
     description:
-      'A public web app for quick analytics on text. It shows word count, character count and social media post limits.',
-    tags: ['React', 'Next.js', 'SQL', 'Tailwind', 'Framer'],
+      'My first try of booking website with a focus on learning coding basics and functional form.',
+    tags: ['HTML', 'CSS', 'Javascript', 'PHP'],
     imageUrl: underthestarsImg,
   },
 ] as const;
@@ -94,14 +103,7 @@ export const skillsData = [
   'Node.js',
   'Git',
   'Tailwind',
-  'Prisma',
-  'MongoDB',
-  'Redux',
-  'GraphQL',
-  'Apollo',
-  'Express',
-  'PostgreSQL',
-  'Python',
-  'Django',
-  'Framer Motion',
+  'Figma',
+  'Procreate',
+  'Photoshop',
 ] as const;
