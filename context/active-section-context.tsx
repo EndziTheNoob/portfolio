@@ -3,6 +3,7 @@
 import React, { useState, createContext, useContext } from 'react';
 import { links } from '@/lib/data';
 
+//Defining types of sections
 type SectionName = (typeof links)[number]['name'];
 
 type ActiveSectionContextProviderProps = {
