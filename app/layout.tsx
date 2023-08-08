@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="!scroll-smooth">
       <head>
-        <link rel="icon" href="/favicon.ico" sizes="32x32" />
+        <link rel="icon" href="/favicon.ico" />
       </head>
       <body
         className={`${inter.className} bg-gray-50 text-gray-950 relative h-[5000px] pt-28 sm:pt-36`}
