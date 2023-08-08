@@ -1,25 +1,12 @@
 'use client';
 
-import React, { useEffect } from 'react';
+import React from 'react';
 import SectionHeading from './SectionHeading';
 import { motion } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
-import { useActiveSectionContext } from '@/context/active-section-context';
+import { useSectionInView } from '@/lib/hooks';
 
 export default function About() {
-  //Creating hook useInView so I know when the about section will come to the view (for active section set up) + import
-  //Adding threshold, so section About is not active immediately when the page load, setting up according to the size of the section
-  //Same set up in each section component
-  const { ref, inView } = useInView({
-    threshold: 0.75,
-  });
-  const { setActiveSection, timeOfLastClick } = useActiveSectionContext();
-
-  useEffect(() => {
-    if (inView && Date.now() - timeOfLastClick > 1000) {
-      setActiveSection('About');
-    }
-  }, [inView, setActiveSection, timeOfLastClick]);
+  const { ref } = useSectionInView('About');
 
   return (
     <motion.section

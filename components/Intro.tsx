@@ -1,17 +1,15 @@
 'use client';
 
 import Image from 'next/image';
-import React, { useEffect } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { BsArrowRight, BsLinkedin } from 'react-icons/bs';
 import { FaGithubSquare } from 'react-icons/fa';
-import { useActiveSectionContext } from '@/context/active-section-context';
-import { useInView } from 'react-intersection-observer';
 import { useSectionInView } from '@/lib/hooks';
 
 export default function Intro() {
-  const { ref } = useSectionInView('Home'); //Using custome hook and passing the proper name section, which come into the view
+  const { ref } = useSectionInView('Home', 0.5); //Using custom hook and passing the proper name section which come into the view + threshold
 
   return (
     <section

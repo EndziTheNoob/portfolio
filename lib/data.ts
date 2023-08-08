@@ -54,7 +54,7 @@ export const experiencesData = [
     title: 'Smart Templates Creator',
     location: 'PwC',
     description:
-      "As a part of Document Automation Team I work on creation of templates for internal app Document Bot.",
+      'As a part of Document Automation Team I work on creation of templates for internal app Document Bot.',
     icon: React.createElement(CgWorkAlt),
     date: '2023 - present',
   },
@@ -62,11 +62,10 @@ export const experiencesData = [
     title: 'Junior Frontend Developer',
     location: 'Czechitas Digital Academy',
     description:
-      "After 300+ hours I finished intense frontend academy focused on React with final project Taskmate.",
+      'After 300+ hours I finished intense frontend academy focused on React with final project Taskmate.',
     icon: React.createElement(LuGraduationCap),
     date: '2023',
-    
-  }
+  },
 ] as const;
 
 export const projectsData = [
@@ -74,7 +73,14 @@ export const projectsData = [
     title: 'Taskmate',
     description:
       'Simple fun to-do list app with an animated pixel character to make your day up.',
-    tags: ['React', 'Next.js', 'Styled-Components', 'Supabase', 'Procreate', 'Photoshop'],
+    tags: [
+      'React',
+      'Next.js',
+      'Styled-Components',
+      'Supabase',
+      'Procreate',
+      'Photoshop',
+    ],
     imageUrl: taksmateImg,
   },
   {
@@ -100,8 +106,8 @@ export const skillsData = [
   'TypeScript',
   'React',
   'Next.js',
-  'Node.js',
   'Git',
+  'Styled-Components',
   'Tailwind',
   'Figma',
   'Procreate',
