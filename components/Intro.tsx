@@ -8,18 +8,10 @@ import { BsArrowRight, BsLinkedin } from 'react-icons/bs';
 import { FaGithubSquare } from 'react-icons/fa';
 import { useActiveSectionContext } from '@/context/active-section-context';
 import { useInView } from 'react-intersection-observer';
+import { useSectionInView } from '@/lib/hooks';
 
 export default function Intro() {
-  const { ref, inView } = useInView({
-    threshold: 0.5,
-  });
-  const { setActiveSection } = useActiveSectionContext();
-
-  useEffect(() => {
-    if (inView) {
-      setActiveSection('Home');
-    }
-  }, [inView, setActiveSection]);
+  const { ref } = useSectionInView('Home'); //Using custome hook and passing the proper name section, which come into the view
 
   return (
     <section
