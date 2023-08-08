@@ -13,7 +13,7 @@ const faceInAnimationVariants = {
     y: 100,
   },
   //Turning object into a function so I can use it below to animate each skill separately with delay
-  //Passing index
+  //Passing index so animation applies for each skill separately
   animate: (index: number) => ({
     opacity: 1,
     y: 0,
@@ -27,8 +27,8 @@ export default function Skills() {
   const { ref } = useSectionInView('Skills');
   return (
     <section
-      ref={ref}
       id="skills"
+      ref={ref}
       className="mb-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-40"
     >
       <SectionHeading>My skills</SectionHeading>

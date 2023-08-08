@@ -35,34 +35,26 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'Senior Client Manager',
+    title: 'PR & Marketing',
     location: 'FleishmanHillard',
     description:
-      'As a leader of PR team focused on technology brands I worked on content creation and strategic communication including project management and budgeting.',
+      'As a leader of a PR team focused on technology brands I worked on content creation and strategic communication including project management and budgeting.',
     icon: React.createElement(CgWorkAlt),
     date: '2018 - 2022',
   },
   {
-    title: 'Product Manager',
-    location: 'Seznam.cz',
+    title: 'Concept Art & Game Design',
+    location: 'DrawPlanet, GameDevHub',
     description:
-      'My step into the world of technology as a product manager of search engine crawler in favorite Czech browser.',
+      'Improved myself in digital drawing with a graphical tablet and explored backgrounds of games production. I learned how to prepare and use documentation, what precedes the production itself, how to define features, levels, importance of narrative and game logic.',
     icon: React.createElement(CgWorkAlt),
     date: '2022',
   },
   {
-    title: 'Smart Templates Creator',
-    location: 'PwC',
-    description:
-      'As a part of Document Automation Team I work on creation of templates for internal app Document Bot.',
-    icon: React.createElement(CgWorkAlt),
-    date: '2023 - present',
-  },
-  {
-    title: 'Junior Frontend Developer',
+    title: 'Frontend Development',
     location: 'Czechitas Digital Academy',
     description:
-      'After 300+ hours I finished intense frontend academy focused on React with final project Taskmate.',
+      'After 300+ hours I finished a frontend academy focused on React with the final project Taskmate. In 200+ hours I learned basics and prerequisities with Codecademy.com and freeCodeCamp.com.',
     icon: React.createElement(LuGraduationCap),
     date: '2023',
   },
