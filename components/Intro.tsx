@@ -50,7 +50,7 @@ export default function Intro() {
         <span className="font-bold">6 years</span> of background in PR and
         marketing. I enjoy{' '}
         <span className="italic">apps & content creation</span>. My focus is on{' '}
-        <span className="underline">React</span>.
+        <span className="underline">React, Next.js</span>.
       </motion.h1>
 
       <motion.div
