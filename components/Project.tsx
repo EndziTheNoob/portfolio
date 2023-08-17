@@ -1,7 +1,6 @@
 import { projectsData } from '@/lib/data';
-import { useScroll, useTransform } from 'framer-motion';
 import Image from 'next/image';
-import { motion } from 'framer-motion';
+import { FaGithub } from 'react-icons/fa';
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -10,6 +9,7 @@ export default function Project({
   description,
   tags,
   imageUrl,
+  githubUrl,
 }: ProjectProps) {
   return (
     <div className="group mb-3 sm:mb-8 last:mb-0 ">
@@ -29,6 +29,14 @@ export default function Project({
               </li>
             ))}
           </ul>
+          <a
+            href={githubUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-600 hover:text-gray-800"
+          >
+            <FaGithub className="text-4xl rounded-full mt-4" />
+          </a>
         </div>
         <Image
           src={imageUrl}

@@ -74,6 +74,7 @@ export const projectsData = [
       'Photoshop',
     ],
     imageUrl: taksmateImg,
+    githubUrl: 'https://github.com/EndziTheNoob/taskmate',
   },
   {
     title: 'Tic-Tac-Toe',
@@ -81,6 +82,7 @@ export const projectsData = [
       'Good old game where X is fighting O and user can play with computer thanks to API.',
     tags: ['Javascript', 'HTLM', 'CSS', 'API'],
     imageUrl: tictactoeImg,
+    githubUrl: 'https://github.com/EndziTheNoob/piskvorky',
   },
   {
     title: 'Under the stars',
@@ -88,6 +90,7 @@ export const projectsData = [
       'My first try of booking website with a focus on learning coding basics and functional form.',
     tags: ['HTML', 'CSS', 'Javascript', 'PHP'],
     imageUrl: underthestarsImg,
+    githubUrl: 'https://github.com/EndziTheNoob/Web_UnderTheStars',
   },
 ] as const;
 
