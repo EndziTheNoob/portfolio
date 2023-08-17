@@ -35,7 +35,7 @@ export default function Skills() {
       <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
         {skillsData.map((skill, index) => (
           <motion.li
-            className="bg-gradient-to-tr from-violet-50 to-transparent border border-black/[0.1] rounded-xl px-5 py-3"
+            className="bg-gradient-to-tr from-violet-50 to-transparent border border-violet-200 rounded-xl px-5 py-3"
             key={index}
             variants={faceInAnimationVariants}
             initial="initial"
