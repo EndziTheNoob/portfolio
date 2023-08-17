@@ -2,9 +2,10 @@ import React from 'react';
 import { CgWorkAlt } from 'react-icons/cg';
 import { GiPencilBrush } from 'react-icons/gi';
 import { LuGraduationCap } from 'react-icons/lu';
-import taksmateImg from '@/public/taskmate.png';
+import taskmateImg from '@/public/taskmate.png';
 import tictactoeImg from '@/public/tictactoe.png';
 import underthestarsImg from '@/public/underthestars.png';
+import about_taskmateImg from '@/public/about_taskmate.png';
 
 export const links = [
   {
@@ -73,8 +74,15 @@ export const projectsData = [
       'Procreate',
       'Photoshop',
     ],
-    imageUrl: taksmateImg,
+    imageUrl: taskmateImg,
     githubUrl: 'https://github.com/EndziTheNoob/taskmate',
+  },
+  {
+    title: 'About Taskmate',
+    description: 'Page dedicated to Czechitas final project Taskmate.',
+    tags: ['React', 'Procreate', 'Photoshop'],
+    imageUrl: about_taskmateImg,
+    githubUrl: 'https://github.com/EndziTheNoob/o-projektu-taskmate',
   },
   {
     title: 'Tic-Tac-Toe',
