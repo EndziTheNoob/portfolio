@@ -1,6 +1,6 @@
 import React from 'react';
 import { CgWorkAlt } from 'react-icons/cg';
-import { FaReact } from 'react-icons/fa';
+import { GiPencilBrush } from 'react-icons/gi';
 import { LuGraduationCap } from 'react-icons/lu';
 import taksmateImg from '@/public/taskmate.png';
 import tictactoeImg from '@/public/tictactoe.png';
@@ -47,7 +47,7 @@ export const experiencesData = [
     location: 'DrawPlanet, GameDevHub',
     description:
       'Improved myself in digital drawing with a graphical tablet and explored backgrounds of games production. I learned how to prepare and use documentation, what precedes the production itself, how to define features, levels, importance of narrative and game logic.',
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(GiPencilBrush),
     date: '2022',
   },
   {

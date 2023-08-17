@@ -1,5 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  experimental: {
+    serverActions: true,
+  },
+
   /*CONFIG PREPARATION FOR EXTERNAL LINKS
    images: {
     remotePatterns: [
