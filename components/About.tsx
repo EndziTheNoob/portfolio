@@ -20,12 +20,18 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I am a communicative person with a passion in creating things. After
-        several years as a PR manager, I discovered my desire to dive into the
-        world of front-end development to uncover the magic behind captivating
-        designs and applications
+        I am a communicative person with a passion for creating things. After
+        spending several years as a PR manager for prominent technology brands,
+        I discovered my desire to dive into the world of frontend development,
+        unraveling the magic behind captivating designs and applications.
       </p>
-      <p></p>
+      <p>
+        My journey began with several online courses, and it gained significant
+        momentum with my participation in the intensive semester-long{' '}
+        <i>Czechitas Digital Web Academy</i>. In addition to coding, I have a
+        love for digital drawing, animation, and I am constantly amazed by video
+        game graphics that push the boundaries of what is possible.
+      </p>
     </motion.section>
   );
 }

@@ -1,34 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Hi!👋
 
-## Getting Started
+This is my portfolio, where you can find something about me and my projects.
 
-First, run the development server:
+<b>My website is a project itself.</b> I approached it as an opportunity to learn basics of <i>TypeScript, Tailwind CSS and Framer Motion</i>.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Being a junior developer, I sought help from various tutorials. I discovered a cool navigation header that tracks the section you're scrolling to. For a CV-style website, the <i>React Vertical Timeline Component</i> is excellent. You can explore it through link below.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+As always, I used [Procreate](https://procreate.com/) app to draw my pixel art portrait and favicon.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ BUILD WITH
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
 
-## Learn More
+## 💻 DEVELOPMENT
 
-To learn more about Next.js, take a look at the following resources:
+### 🧩 PREREQUISITIES
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en/download/)
+- [npm](https://www.npmjs.com/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### 🚀 FIRST LAUNCH
 
-## Deploy on Vercel
+1. type `npm` to install dependencies
+2. type `npm run dev` to open [http://localhost:3000](http://localhost:3000) and view project in the browser
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 📖 STATIC CODE ANALYSIS TOOLS, LIBRARIES & OTHER INTERESTING HELPERS
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+- [React Vertical Timeline](https://www.npmjs.com/package/react-vertical-timeline-component)
+- [Autoprefixer](https://www.npmjs.com/package/autoprefixer)
+
+---
+
+## 💡 TIPS & TRICKS
+
+Learn something everyday. Here are some nice shortcuts for my fellow juniors:
+
+- <b>rfc</b> 👉 Write this in your blank file, hit Enter, and create the basic structure for a new React component.
+- <b>ctrl + space bar</b> 👉 Use this to import faster; just click on the underlined component or element and choose from the suggestions.

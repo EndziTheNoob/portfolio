@@ -65,7 +65,7 @@ export const projectsData = [
   {
     title: 'Taskmate',
     description:
-      'Simple fun to-do list app with an animated pixel character to make your day up.',
+      'Enjoy a simple and fun to-do list app featuring an animated pixel character that adds a touch of delight to your day.',
     tags: [
       'React',
       'Next.js',
@@ -79,7 +79,8 @@ export const projectsData = [
   },
   {
     title: 'About Taskmate',
-    description: 'Page dedicated to Czechitas final project Taskmate.',
+    description:
+      "Explore a dedicated page for the Czechitas final project, Taskmate. Here, you can delve deeper into the project's goals, characters, and creators.",
     tags: ['React', 'Procreate', 'Photoshop'],
     imageUrl: about_taskmateImg,
     githubUrl: 'https://github.com/EndziTheNoob/o-projektu-taskmate',
@@ -87,7 +88,7 @@ export const projectsData = [
   {
     title: 'Tic-Tac-Toe',
     description:
-      'Good old game where X is fighting O and user can play with computer thanks to API.',
+      'Experience the classic game where X battles O, allowing users to play against the computer with the help of an API.',
     tags: ['Javascript', 'HTLM', 'CSS', 'API'],
     imageUrl: tictactoeImg,
     githubUrl: 'https://github.com/EndziTheNoob/piskvorky',
@@ -95,7 +96,7 @@ export const projectsData = [
   {
     title: 'Under the stars',
     description:
-      'My first try of booking website with a focus on learning coding basics and functional form.',
+      "Explore my initial attempt at a booking website, which emphasizes learning coding fundamentals and creating functional forms. Yes, it's not much but it's an honest work.",
     tags: ['HTML', 'CSS', 'Javascript', 'PHP'],
     imageUrl: underthestarsImg,
     githubUrl: 'https://github.com/EndziTheNoob/Web_UnderTheStars',
