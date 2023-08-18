@@ -40,7 +40,7 @@ As always, I used [Procreate](https://procreate.com/) app to draw my pixel art p
 
 ## 💡 TIPS & TRICKS
 
-Learn something everyday. Here are some nice shortcuts for my fellow juniors:
+Learn something everyday. Here are some nice shortcuts I learned with this project:
 
 - <b>rfc</b> 👉 Write this in your blank file, hit Enter, and create the basic structure for a new React component.
 - <b>ctrl + space bar</b> 👉 Use this to import faster; just click on the underlined component or element and choose from the suggestions.
